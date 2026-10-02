@@ -52,7 +52,7 @@ function UploadResume() {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:5000/api/resume/upload",
+        "https://ats-resume-analyzer-1-39m3.onrender.com",
         formData
       );
 console.log(res.data);
